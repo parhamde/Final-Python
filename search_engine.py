@@ -1,4 +1,4 @@
-# ===============  Importing Suitable Libraries ==========================
+# ===============  Importing Suitable Libraries =========================
 from tkinter import *
 import tkinter as tk
 import webbrowser 
