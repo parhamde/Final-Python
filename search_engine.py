@@ -28,7 +28,7 @@ def callback(url):
 def search_query():
         
         query = text.get("1.0","end-1c")
-        s = googlesearch.search(query, tld="co.in", num=1, stop=1, pause=10)
+        s = googlesearch.search(query, tld="co.in", num=1, stop=4, pause=7)
         # print(s)
         for j in s:
                 # print(j)
@@ -114,7 +114,7 @@ lucky.bind("<Button-1>",lambda e: callback("https://www.google.com/doodles"))
 #offered label
 offered = Label(root,text="Google offered in:")
 offered.place(x=120,y=410)
-lang = Label(root,text="Creat white mohammmad parham",fg="blue")
+lang = Label(root,text="Creat white mohammmad_parham",fg="blue")
 lang.place(x=230,y=410)
 
 root.mainloop()
